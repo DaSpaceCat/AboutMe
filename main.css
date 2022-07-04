@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "FiraCode";
+    src: url('FiraCode_Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: "FiraCode";
+    color: white;
+    background-color: #3d3c50;
+    background-image: -moz-linear-gradient(top, #3d3c50 0%, #31304d 100%);
+    border-color: #5450a6;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
