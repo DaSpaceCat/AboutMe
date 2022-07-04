@@ -18,6 +18,11 @@ body {
 a {
     color: #845eff;
     text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+a:hover {
+    color: white;
 }
 
 .container {
