@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "FiraCode";
+    src: url('../FiraCode_Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: "FiraCode", monospace;
+    color: white;
+    background-color: #3d3c50;
+    background-image: -moz-linear-gradient(top, #3d3c50 0%, #31304d 100%);
+    border-color: #5450a6;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+a {
+    color: #845eff;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+a:hover {
+    color: white;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.pfp {
+    border-style: none;
+    border-radius: 30px;
+    height: 225px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.copyright {
+    color: rgb(150, 150, 150);
+}
