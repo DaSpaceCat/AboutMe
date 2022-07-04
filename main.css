@@ -29,3 +29,7 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
+.copyright {
+    color: rgb(150, 150, 150);
+}
